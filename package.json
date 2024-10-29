@@ -1,11 +1,20 @@
 {
+<<<<<<< HEAD
   "scripts": {
     "dev": "next dev",
+=======
+  "name": "platform1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+>>>>>>> a4edf25 (Initial commit from Create Next App)
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "^15.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -16,5 +25,16 @@
     "eslint-config-next": "^15.0.2",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14"
+=======
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "next": "15.0.2"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.2"
+>>>>>>> a4edf25 (Initial commit from Create Next App)
   }
 }
