@@ -1,10 +1,20 @@
-import Navigation from './Navigation';
+import React from 'react';
+import styles from '../styles/Layout.module.css';
 
-export default function Layout({ children }) {
+function Layout({ children }) {
   return (
-    <div className="layout">
-      <Navigation />
-      <main>{children}</main>
+    <div className={styles.container}>
+      <nav className={styles.nav}>
+        {/* Add your navigation here */}
+      </nav>
+      <main className={styles.main}>
+        {children}
+      </main>
+      <footer className={styles.footer}>
+        {/* Add your footer content here */}
+      </footer>
     </div>
   );
-} 
+}
+
+export default Layout; 

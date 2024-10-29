@@ -10,6 +10,7 @@ function HomePage() {
   );
 }
 
+<<<<<<< HEAD
 export default HomePage; 
 =======
 import Image from "next/image";
@@ -128,3 +129,6 @@ export default function Home() {
   );
 }
 >>>>>>> a4edf25 (Initial commit from Create Next App)
+=======
+export default HomePage;
+>>>>>>> b232020 (Update submodule files)

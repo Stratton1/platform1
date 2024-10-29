@@ -1,1 +1,18 @@
- 
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  /* Add your navigation styles */
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.footer {
+  /* Add your footer styles */
+} 
