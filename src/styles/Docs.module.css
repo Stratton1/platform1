@@ -1,0 +1,102 @@
+/* src/styles/Docs.module.css */
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .filterButton {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .filterButton.active {
+    background-color: #333;
+    color: white;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .docItem {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .docItem:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .docHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .docTitle {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .docDate {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .docDescription {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .retryButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .retryButton:hover {
+    background-color: #d32f2f;
+  }
+  
+  .loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    color: #666;
+  }

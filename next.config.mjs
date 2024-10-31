@@ -1,10 +1,9 @@
-<<<<<<< HEAD
- 
-=======
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-};
-
-export default nextConfig;
->>>>>>> a4edf25 (Initial commit from Create Next App)
+    // Specify the file extensions for pages
+    pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
+    // Enable React strict mode
+    reactStrictMode: true,
+  };
+  
+  export default nextConfig;

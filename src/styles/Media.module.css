@@ -1,1 +1,144 @@
- 
+.container {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 1.5rem;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filterButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  background-color: white;
+  color: #495057;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.filterButton:hover {
+  background-color: #f8f9fa;
+}
+
+.filterButton.active {
+  background-color: #228be6;
+  color: white;
+  border-color: #228be6;
+}
+
+.content {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.messageItem {
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  border: 1px solid #e9ecef;
+}
+
+.messageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.messageSender {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.messageTime {
+  color: #868e96;
+  font-size: 0.875rem;
+}
+
+.messageContent {
+  color: #495057;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.messageStatus {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+}
+
+.messageStatus.read {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.messageStatus.unread {
+  background-color: #228be6;
+  color: white;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 2rem;
+}
+
+.spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #228be6;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error {
+  color: #e03131;
+  background-color: #fff5f5;
+  border-radius: 0.5rem;
+  border: 1px solid #ffc9c9;
+}
+
+.retryButton {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #e03131;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.retryButton:hover {
+  background-color: #c92a2a;
+}
+
+.noData {
+  text-align: center;
+  color: #868e96;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  border: 1px dashed #dee2e6;
+} 

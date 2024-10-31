@@ -1,0 +1,34 @@
+.banner {
+  background: linear-gradient(to right, #4a90e2, #50e3c2);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.bannerTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.bannerSubtitle {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.featureItem {
+  flex: 1 1 45%;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
